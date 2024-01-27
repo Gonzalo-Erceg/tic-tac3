@@ -13,7 +13,7 @@ import gsap from "gsap/gsap-core"
 import { useGLTF } from '@react-three/drei'
 
 export default function X(props) {
-  const { nodes, materials } = useGLTF('/x.gltf')
+  const { nodes, materials } = useGLTF('/tic-tac3/x.gltf')
   const ref = useRef()    
 
   const [clicked,setClicked] = useState(false)
@@ -50,4 +50,4 @@ export default function X(props) {
   )
 }
 
-useGLTF.preload('/x.gltf')
+useGLTF.preload('/tic-tac3/x.gltf')
