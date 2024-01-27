@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"http://gonzalo-erceg.github.io/tic-tac3"
+  base:"https://gonzalo-erceg.github.io/tic-tac3/"
 })
